@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Podcast validation is started]]>
+    </line>
+    <line>
+      <![CDATA[Audio option found]]>
+    </line>
+    <line>
+      <![CDATA[Video option found option found]]>
+    </line>
+    <line>
+      <![CDATA[Title option found]]>
+    </line>
+    <line>
+      <![CDATA[Description option found]]>
+    </line>
+    <line>
+      <![CDATA[Thumbnail option found]]>
+    </line>
+    <line>
+      <![CDATA[FileInput option found]]>
+    </line>
+    <line>
+      <![CDATA[Create btu option found]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-26T10:02:24 IST" name="Suite" finished-at="2023-08-26T10:03:04 IST" duration-ms="39538">
+    <groups>
+    </groups>
+    <test started-at="2023-08-26T10:02:24 IST" name="LoginTest" finished-at="2023-08-26T10:02:41 IST" duration-ms="16661">
+      <class name="com.cdms.testcase.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cdms.testcase.LoginTest@1a75e76a]" started-at="2023-08-26T10:02:24 IST" name="setup" finished-at="2023-08-26T10:02:36 IST" duration-ms="11364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:1, instance:com.cdms.testcase.LoginTest@1a75e76a]" started-at="2023-08-26T10:02:36 IST" name="loginTest" finished-at="2023-08-26T10:02:40 IST" duration-ms="4291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="roleTest()[pri:2, instance:com.cdms.testcase.LoginTest@1a75e76a]" started-at="2023-08-26T10:02:40 IST" name="roleTest" finished-at="2023-08-26T10:02:40 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cdms.testcase.LoginTest@1a75e76a]" started-at="2023-08-26T10:02:40 IST" name="teardown" finished-at="2023-08-26T10:02:41 IST" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.cdms.testcase.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2023-08-26T10:02:41 IST" name="CafeteriaFormTest" finished-at="2023-08-26T10:03:04 IST" duration-ms="22846">
+      <class name="com.cdms.testcase.CafeteriaInputFields">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cdms.testcase.CafeteriaInputFields@4bdeaabb]" started-at="2023-08-26T10:02:41 IST" name="setup" finished-at="2023-08-26T10:02:49 IST" duration-ms="7753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login()[pri:0, instance:com.cdms.testcase.CafeteriaInputFields@4bdeaabb]" started-at="2023-08-26T10:02:49 IST" name="Login" finished-at="2023-08-26T10:02:51 IST" duration-ms="2588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="checkCafeteriaTopics()[pri:1, instance:com.cdms.testcase.CafeteriaInputFields@4bdeaabb]" started-at="2023-08-26T10:02:51 IST" name="checkCafeteriaTopics" finished-at="2023-08-26T10:02:53 IST" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCafeteriaTopics -->
+        <test-method signature="cafeteriaListinForm()[pri:2, instance:com.cdms.testcase.CafeteriaInputFields@4bdeaabb]" started-at="2023-08-26T10:02:53 IST" name="cafeteriaListinForm" finished-at="2023-08-26T10:02:56 IST" duration-ms="2988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cafeteriaListinForm -->
+        <test-method signature="groupDiscussionForm()[pri:3, instance:com.cdms.testcase.CafeteriaInputFields@4bdeaabb]" started-at="2023-08-26T10:02:56 IST" name="groupDiscussionForm" finished-at="2023-08-26T10:02:56 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupDiscussionForm -->
+        <test-method signature="DebatesForm()[pri:4, instance:com.cdms.testcase.CafeteriaInputFields@4bdeaabb]" started-at="2023-08-26T10:02:56 IST" name="DebatesForm" finished-at="2023-08-26T10:02:56 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DebatesForm -->
+        <test-method signature="GVTopics()[pri:5, instance:com.cdms.testcase.CafeteriaInputFields@4bdeaabb]" started-at="2023-08-26T10:02:56 IST" name="GVTopics" finished-at="2023-08-26T10:02:58 IST" duration-ms="1989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GVTopics -->
+        <test-method signature="GVForm()[pri:6, instance:com.cdms.testcase.CafeteriaInputFields@4bdeaabb]" started-at="2023-08-26T10:02:58 IST" name="GVForm" finished-at="2023-08-26T10:03:01 IST" duration-ms="2167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GVForm -->
+        <test-method signature="posterForm()[pri:7, instance:com.cdms.testcase.CafeteriaInputFields@4bdeaabb]" started-at="2023-08-26T10:03:01 IST" name="posterForm" finished-at="2023-08-26T10:03:02 IST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posterForm -->
+        <test-method signature="PodcastForm()[pri:8, instance:com.cdms.testcase.CafeteriaInputFields@4bdeaabb]" started-at="2023-08-26T10:03:02 IST" name="PodcastForm" finished-at="2023-08-26T10:03:03 IST" duration-ms="1344" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Podcast validation is started]]>
+            </line>
+            <line>
+              <![CDATA[Audio option found]]>
+            </line>
+            <line>
+              <![CDATA[Video option found option found]]>
+            </line>
+            <line>
+              <![CDATA[Title option found]]>
+            </line>
+            <line>
+              <![CDATA[Description option found]]>
+            </line>
+            <line>
+              <![CDATA[Thumbnail option found]]>
+            </line>
+            <line>
+              <![CDATA[FileInput option found]]>
+            </line>
+            <line>
+              <![CDATA[Create btu option found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PodcastForm -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cdms.testcase.CafeteriaInputFields@4bdeaabb]" started-at="2023-08-26T10:03:03 IST" name="teardown" finished-at="2023-08-26T10:03:04 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.cdms.testcase.CafeteriaInputFields -->
+    </test> <!-- CafeteriaFormTest -->
+  </suite> <!-- Suite -->
+</testng-results>
