@@ -69,6 +69,8 @@ public class LoginTest extends BaseClass {
 			test1.fail("User role is not intented");
 		}
 		Assert.assertEquals(userRole, "Admin");
+
+		System.out.println("The login test is completed");
 	}
 
 	
